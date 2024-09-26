@@ -27,9 +27,9 @@ export const Main: React.FC = () => {
         }
     }, [query, debouncedQuery]);
 
-    const handleInputChange = useCallback((e: React.ChangeEvent<HTMLInputElement>): void => {
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
         setQuery(e.target.value);
-    }, []);
+    };
 
     return (
         <div className="container">
