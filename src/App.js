@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from 'react-query';
-import { Main } from "./Main/index.tsx";
+import { Main } from "./components/Main/index.tsx";
 
 const queryClient = new QueryClient();
 function App() {
